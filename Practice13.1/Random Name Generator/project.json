@@ -1,0 +1,14 @@
+{
+  "name": "Random Name Generator",
+  "description": "Project",
+  "main": "EnterUser.xaml",
+  "dependencies": {},
+  "excludedData": [
+    "Private:*",
+    "*password*"
+  ],
+  "toolVersion": "18.2",
+  "projectVersion": "1.0.6789.20392",
+  "packOptions": {},
+  "runtimeOptions": {}
+}

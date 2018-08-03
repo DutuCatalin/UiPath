@@ -67,6 +67,15 @@
             <Variable x:TypeArguments="ui:GenericValue" Name="phoneNumber" />
             <Variable x:TypeArguments="ui:GenericValue" Name="companyName" />
           </Sequence.Variables>
+          <ui:OpenBrowser UiBrowser="{x:Null}" BrowserType="IE" DisplayName="Open browser" Hidden="False" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" NewSession="True" Private="False" Url="https://www.google.com/">
+            <ui:OpenBrowser.Body>
+              <ActivityAction x:TypeArguments="x:Object">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+                </ActivityAction.Argument>
+              </ActivityAction>
+            </ui:OpenBrowser.Body>
+          </ui:OpenBrowser>
           <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="IE" DisplayName="Attach Browser 'chrome.exe Generate'" sap2010:WorkflowViewState.IdRef="BrowserScope_5" InformativeScreenshot="8438d19b26baf76f1a46b530f5d19ef5" Selector="&lt;html app='chrome.exe' omit:title='Generate a Random Name*' /&gt;">
             <ui:BrowserScope.Body>
               <ActivityAction x:TypeArguments="x:Object">
@@ -169,10 +178,11 @@
       </FlowStep>
     </Flowchart.StartNode>
     <x:Reference>__ReferenceID0</x:Reference>
-    <sads:DebugSymbol.Symbol>dzxDOlxVc2Vyc1xDYXRhbGluLk9hbnRcRG9jdW1lbnRzXFVpUGF0aFxQcmFjdGljZTYuMVxNYWluLnhhbWwhPgOtAQ8CAQFBCagBFAIBAkYLpwEdAgEDRqcCRu0CAgEkTBGkARwCAQRQE1keAgEfWhNxIwIBGHITiQEjAgERigETowElAgEFURVYIwIBIGsXbzACAR1gGWcnAgEZgwEXhwEwAgEWeBl/JwIBEooBsQKKAfQCAgEQkAEZoAEkAgEGVkhWTgIBIVOoAVPwAgIBI22qAW3XAQIBHmVMZVkCARpirAFiyAECARyFAaoBhQHVAQIBF31MfVkCARN6rAF6yAECARWRARuVASkCAQ2WARuaASkCAQqbARufASkCAQeTAa4BkwHOAgIBD5EBtAKRAbwCAgEOmAGuAZgB2AICAQyWAbQClgHDAgIBC50BrgGdAdgCAgEJmwG0ApsBwwICAQg=</sads:DebugSymbol.Symbol>
+    <sads:DebugSymbol.Symbol>dzxDOlxVc2Vyc1xDYXRhbGluLk9hbnRcRG9jdW1lbnRzXFVpUGF0aFxQcmFjdGljZTYuMVxNYWluLnhhbWwjPgO2AQ8CAQFBCbEBFAIBAkYLThwCASVPC7ABHQIBA0bBAUbaAQIBJk+nAk/tAgIBJFURrQEcAgEEWRNiHgIBH2MTeiMCARh7E5IBIwIBEZMBE6wBJQIBBVoVYSMCASB0F3gwAgEdaRlwJwIBGYwBF5ABMAIBFoEBGYgBJwIBEpMBsQKTAfQCAgEQmQEZqQEkAgEGX0hfTgIBIVyoAVzwAgIBI3aqAXbXAQIBHm5MblkCARprrAFryAECARyOAaoBjgHVAQIBF4YBTIYBWQIBE4MBrAGDAcgBAgEVmgEbngEpAgENnwEbowEpAgEKpAEbqAEpAgEHnAGuAZwBzgICAQ+aAbQCmgG8AgIBDqEBrgGhAdgCAgEMnwG0Ap8BwwICAQumAa4BpgHYAgIBCaQBtAKkAcMCAgEI</sads:DebugSymbol.Symbol>
   </Flowchart>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
+      <sap2010:ViewStateData Id="OpenBrowser_1" sap:VirtualizedContainerService.HintSize="742.4,115.2" />
       <sap2010:ViewStateData Id="GetValue_1" sap:VirtualizedContainerService.HintSize="313.6,107.2" />
       <sap2010:ViewStateData Id="Sequence_11" sap:VirtualizedContainerService.HintSize="705.6,232">
         <sap:WorkflowViewStateService.ViewState>
@@ -206,7 +216,7 @@
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
       <sap2010:ViewStateData Id="BrowserScope_5" sap:VirtualizedContainerService.HintSize="742.4,1779.2" />
-      <sap2010:ViewStateData Id="Sequence_1" sap:VirtualizedContainerService.HintSize="436.8,777.6">
+      <sap2010:ViewStateData Id="Sequence_1" sap:VirtualizedContainerService.HintSize="764.8,2059.2">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>

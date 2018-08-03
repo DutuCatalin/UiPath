@@ -1,0 +1,14 @@
+{
+  "name": "Big Project + Invoke",
+  "description": "Project",
+  "main": "0. Main.xaml",
+  "dependencies": {},
+  "excludedData": [
+    "Private:*",
+    "*password*"
+  ],
+  "toolVersion": "18.2",
+  "projectVersion": "1.0.6789.20310",
+  "packOptions": {},
+  "runtimeOptions": {}
+}

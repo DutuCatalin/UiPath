@@ -1,0 +1,14 @@
+{
+  "name": "Practice12.2",
+  "description": "Project",
+  "main": "Correct errors.xaml",
+  "dependencies": {},
+  "excludedData": [
+    "Private:*",
+    "*password*"
+  ],
+  "toolVersion": "18.2",
+  "projectVersion": "1.0.6789.17588",
+  "packOptions": {},
+  "runtimeOptions": {}
+}
