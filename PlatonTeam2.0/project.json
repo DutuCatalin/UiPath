@@ -1,0 +1,14 @@
+{
+  "name": "PlatonTeam2.0",
+  "description": "Blank Project",
+  "main": "Main.xaml",
+  "dependencies": {},
+  "excludedData": [
+    "Private:*",
+    "*password*"
+  ],
+  "toolVersion": "18.2",
+  "projectVersion": "1.0.6795.17870",
+  "packOptions": {},
+  "runtimeOptions": {}
+}
